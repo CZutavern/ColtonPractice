@@ -14,21 +14,21 @@ public class ScheduleBuilder
   }
   public void addLectures(File file)
   {
-    Scanner in = new Scanner(file);
-    while (in.hasNextLine())
-    {
-      String data = in.nextLine();
-      
-      Lecture temp = new Lecture(in);
-      classes.append(temp);
+    Lecture temp = new Lecture(file);
     }
   }
   public static void main(String[] args)
   {
     ScheduleBuilder schedule = new ScheduleBuilder();
+    
     try
     {
       File file = new File("times.txt");
+    }
+    catch (FileNotFoundException e)
+    {
+      System.out.println("An error occured.");
+      e.printStackTrace();
     }
     schedule.addLectures(file)
     
