@@ -1,3 +1,6 @@
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 public class Lecture
 {
   private int[] times;
@@ -21,6 +24,6 @@ public class Lecture
   }
   public Lecture(String line)
   {
-     
+     in = new Scanner()
   }
 }
