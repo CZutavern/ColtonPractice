@@ -18,14 +18,8 @@ public class Lecture
     name = "";
     credits = 0;
   }
-  public Lecture(String times, )
+  public Lecture(String line)
   {
-    times = [0];
-    length = 0;
-    times2 = [0];
-    length2 = 0;
-    hasTwoTimes = false;
-    name = "";
-    credits = 0;
+     
   }
 }
