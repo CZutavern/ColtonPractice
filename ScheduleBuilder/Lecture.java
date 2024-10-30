@@ -22,8 +22,11 @@ public class Lecture
     name = "";
     credits = 0;
   }
-  public Lecture(String line)
+  public Lecture(File file)
   {
-     in = new Scanner()
+    
+    Scanner in = new Scanner(file);
+    String data = in.nextLine();
+    
   }
 }
