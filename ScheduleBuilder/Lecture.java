@@ -7,6 +7,7 @@ public class Lecture
   private boolean hasTwoTimes;
   private String name;
   private int credits;
+  private boolean isRequired;
   
   public Lecture()
   {
