@@ -18,7 +18,7 @@ public class ScheduleBuilder
   public void generateSchedules()
   {
     for(int i = 0; i < classes.size();i++){
-      ArrayList<ArrayList<
+      ArrayList<ArrayList<ArrayList<Integer>>> ctimes = new ArrayList<ArrayList<ArrayList<Integer>>>(classes.get(i).get
       
   }
   public void addLectures(File file)
